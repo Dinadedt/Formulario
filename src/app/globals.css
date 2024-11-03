@@ -49,3 +49,78 @@ body, html{
   height: 100%; 
   scroll-behavior: smooth; 
 }
+
+
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6; /* Color de fondo claro */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Contenedor del formulario */
+.form-container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Imagen del formulario */
+.form-container img {
+  width: 120px;
+  height: auto;
+  margin-bottom: 2.5rem;
+}
+
+/* Encabezado */
+.form-container h2 {
+  color: #4b0082; /* Azul-morado oscuro */
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* Estilos de los inputs y select */
+.form-container label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #4b0082; /* Azul-morado oscuro */
+}
+
+.form-container input,
+.form-container select {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #d1d5db; /* Color gris claro */
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+/* Botón de envío */
+.form-container button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #6a0dad; /* Azul-morado */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-container button:hover {
+  background-color: #5b0c98; /* Azul-morado más oscuro para el hover */
+}
